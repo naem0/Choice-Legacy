@@ -1,6 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 p, a , ul{
     margin: 0 !important;
 }
+body{
+    font-family: "Poppins", sans-serif;
+}
 .manu-search{
     max-width: 600px;
+}
+.bg-primary-color{
+    background-color: #008080 !important;
+}
+.primary-color{
+    color: #008080;
+}
+.section-pt{
+    padding-top: 80px;
+}
+.top-welcome{
+    font-size: 10px;
+    font-weight: 700;
+}
+.main-nav-continar{
+    padding: 12px 0;
+}
+.manu-search{
+    border-radius: 12px !important;
+}
+.manu-search input{
+    border: 2px solid #008080;
+}
+.manu-search input:focus{
+    border: 2px solid #008080;
+    box-shadow: none;
+}
+.dropdown-menu .dropdown-item{
+    font-weight: 500;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.banner{
+    background: radial-gradient(65.89% 146.8% at 89.97% 87.23%, #008371 23.39%, #002209 100%);
+}
+.banner-title{
+    font-size: 50px;
+    line-height: 60px;
+}
+.bannre-description{
+    font-size: 18px;
+    padding-top: 20 px;
+    padding-bottom: 46px;
+}
+.button{
+    padding: 12px 28px;
+    border-radius: 12px;
+    color: white;
+    font-weight: 500;
+    border: none;
+}
+.watch-now-btn{
+    border: 1px solid #008080;
+    background: none;
+}
+.dropdown-hover{
+ margin-bottom: 1rem !important;
+ text-transform: uppercase;
+ position: relative;
+}
+.dropdown-hover:hover {
+    padding-left: 2rem;
+    padding-right: 0px;
+    color: #008080 !important;
+    background: none !important;
+    transition: 500ms;
 }

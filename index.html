@@ -4,11 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
     <link rel="stylesheet" href="/assets/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <!-- css -->
     <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- swiper -->
     <link rel="stylesheet" href="/assets/swiper/swiper-bundle.min.css">
+    <!-- fontawesome -->
     <script src="/assets/fontawesome-free-6.5.2-web/js/all.min.js" crossorigin="anonymous"></script>
+
     <title>Choice Legacy</title>
+
 </head>
 
 <body>
@@ -17,32 +23,37 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <p class="py-2">Welcome To Nature Beauty Online Store Fast Shop Now !</p>
+                        <p class="py-2 top-welcome">Welcome To Nature Beauty Online Store Fast Shop Now !</p>
                     </div>
                 </div>
             </div>
         </section>
         <section class="main-nav">
-            <div class="container ">
+            <div class="container">
                 <div class="row">
                     <div class="col">
-                        <div class="d-flex justify-content-between align-items-center py-2">
-                            <div class="">
-                                <a href="/">
-                                    <img src="/assets/images/LOGO.png" alt="logo">
-                                </a>
-                            </div>
+                        <div class="d-flex gap-4 justify-content-between align-items-center main-nav-continar">
+                            <a href="/">
+                                <img src="/assets/images/LOGO.png" alt="logo">
+                            </a>
                             <from class="input-group manu-search">
-                                <input type="text" class="form-control" placeholder="Recipient's username"
+                                <input type="text" class="form-control" placeholder="Search Products, categories ..."
                                     aria-label="Recipient's username" aria-describedby="button-addon2">
-                                <button class="btn btn-outline-secondary" type="button" id="button-addon2">
-                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                <button class="btn btn-outline-secondary bg-primary-color" type="button"
+                                    id="button-addon2">
+                                    <i class="fa-solid fa-magnifying-glass text-white"></i>
                                 </button>
                             </from>
-                            <div class="d-flex gap-4 align-items-center">
-                                <i class="fa-solid fa-cart-plus"></i>
-                                <i class="fa-regular fa-user"></i>
-                                <i class="fa-solid fa-headset"></i>
+                            <div class="d-flex gap-4 align-items-center fs-4 ">
+                                <a class="text-black" href="">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </a>
+                                <a class="text-black" href="">
+                                    <i class="fa-regular fa-user"></i>
+                                </a>
+                                <a class="text-black" href="">
+                                    <i class="fa-solid fa-headset"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -53,35 +64,144 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <ul class="text-white d-flex list-unstyled gap-4 py-3 flex-row ">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
+                        <ul class="text-white d-flex align-items-center gap-5 list-unstyled ">
+                            <li class="dropdown nav-item">
+                                <button class="dropdown-toggle nav-link py-3">
+                                    Makeupe
+                                </button>
+                                <div class="dropdown-menu rounded-0 border-0 p-4">
+                                    <div class="d-flex gap-5">
+                                        <div class="">
+                                            <h5 class="fw-bold dropdown-item ">FACE MAKEUPE</h5>
+                                            <hr class=" mt-0 mx-3 border-2 border-black w-50 ">
+                                            <ul class="rounded-0 border-0 list-unstyled ">
+                                                <li>
+                                                    <p></p>
+                                                    <a class="dropdown-item dropdown-hover" href="#">Facewash</a>
+                                                </li>
+                                                <li><a class="dropdown-item dropdown-hover" href="#">Sunscreen</a></li>
+                                                <li><a class="dropdown-item dropdown-hover" href="#">COLOR CORRECTOR</a></li>
+                                                <li><a class="dropdown-item dropdown-hover" href="#">Moisturizer</a></li>
+                                                <li><a class="dropdown-item dropdown-hover" href="#">Lip Care</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="">
+                                            <h5 class="fw-bold dropdown-item ">EYE MAKEUPE</h5>
+                                            <hr class=" mt-0 mx-3 border-2 border-black w-50 ">
+                                            <ul class=" rounded-0 border-0 list-unstyled ">
+                                                <li><a class="dropdown-item" href="#">Facewash</a></li>
+                                                <li><a class="dropdown-item" href="#">Sunscreen</a></li>
+                                                <li><a class="dropdown-item" href="#">Toner</a></li>
+                                                <li><a class="dropdown-item" href="#">Moisturizer</a></li>
+                                                <li><a class="dropdown-item" href="#">Lip Care</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="">
+                                            <h5 class="fw-bold dropdown-item ">MAKEUPE ESSENTIALS</h5>
+                                            <hr class=" mt-0 mx-3 border-2 border-black w-50 ">
+                                            <ul class=" rounded-0 border-0 list-unstyled ">
+                                                <li><a class="dropdown-item" href="#">Facewash</a></li>
+                                                <li><a class="dropdown-item" href="#">Sunscreen</a></li>
+                                                <li><a class="dropdown-item" href="#">Toner</a></li>
+                                                <li><a class="dropdown-item" href="#">Moisturizer</a></li>
+                                                <li><a class="dropdown-item" href="#">Lip Care</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="d-flex gap-4 flex-column ">
+                                            <div class="">
+                                                <img src="/assets/images/Rectangle 3173.png" alt="">
+                                            </div>
+                                            <div class="">
+                                                <img src="/assets/images/Rectangle 3173.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
                             <li class="dropdown nav-item">
-                                <button class="dropdown-toggle nav-link" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Dropdown button
+                                <button class="dropdown-toggle nav-link py-3">
+                                    Skin Care
                                 </button>
-                                <ul class="dropdown-menu">
-                                  <li><a class="dropdown-item" href="#">Action</a></li>
-                                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <ul class="dropdown-menu rounded-0 border-0">
+                                    <li><a class="dropdown-item" href="#">Facewash</a></li>
+                                    <li><a class="dropdown-item" href="#">Sunscreen</a></li>
+                                    <li><a class="dropdown-item" href="#">Toner</a></li>
+                                    <li><a class="dropdown-item" href="#">Moisturizer</a></li>
+                                    <li><a class="dropdown-item" href="#">Lip Care</a></li>
                                 </ul>
-                              </li>
+                            </li>
+                            <li class="dropdown nav-item">
+                                <button class="dropdown-toggle nav-link py-3">
+                                    Hair Care
+                                </button>
+                                <ul class="dropdown-menu rounded-0 border-0 ">
+                                    <li><a class="dropdown-item" href="#">Hair mask</a></li>
+                                    <li><a class="dropdown-item" href="#">Shampoo</a></li>
+                                    <li><a class="dropdown-item" href="#">Conditioner</a></li>
+                                    <li><a class="dropdown-item" href="#">Leave in conditioner</a></li>
+                                    <li><a class="dropdown-item" href="#">Serum</a></li>
+                                    <li><a class="dropdown-item" href="#">Hair Oil</a></li>
+                                    <li><a class="dropdown-item" href="#">Hair Styling Tools</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown nav-item">
+                                <button class="dropdown-toggle nav-link py-3">
+                                    Korean
+                                </button>
+                                <ul class="dropdown-menu rounded-0 border-0">
+                                    <li><a class="dropdown-item" href="#">Serum</a></li>
+                                    <li><a class="dropdown-item" href="#">Toner</a></li>
+                                    <li><a class="dropdown-item" href="#">Sunscreen</a></li>
+                                    <li><a class="dropdown-item" href="#">Hair mask</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown nav-item">
+                                <button class="dropdown-toggle nav-link py-3">
+                                    Men’s Care
+                                </button>
+                                <ul class="dropdown-menu rounded-0 border-0">
+                                    <li><a class="dropdown-item" href="#">Facewash</a></li>
+                                    <li><a class="dropdown-item" href="#">Sunscreen</a></li>
+                                    <li><a class="dropdown-item" href="#">Toner</a></li>
+                                    <li><a class="dropdown-item" href="#">Moisturizer</a></li>
+                                    <li><a class="dropdown-item" href="#">Shampoo</a></li>
+                                    <li><a class="dropdown-item" href="#">Conditioner</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
-
         </nav>
+        <section class="banner">
+            <div class="container ">
+                <div class="row row-cols-1 row-cols-md-2 section-pt align-items-center">
+                    <div class="col text-white ">
+                        <h1 class="fw-bold banner-title">
+                            The Health <span class="primary-color">Of Your Skin With</span> Natural Ingredients Beauty
+                        </h1>
+                        <p class="bannre-description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                            commodo diam libero vitae erat.
+                        </p>
+                        <div class=" d-flex align-items-center gap-4">
+                            <button class="button bg-primary-color">Explere all <i
+                                    class="fa-solid fa-arrow-right"></i></button>
+                            <button class="button watch-now-btn">Watch now <i
+                                    class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid" src="/assets/images/main-photo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
 
 
+    <Script src="assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></Script>
 </body>
 
 </html>
